@@ -1,0 +1,137 @@
+/* @import  url("font/johnnytorchcond.ttf");
+} */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body {
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)), url("../img/bg/planb2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  margin: auto;
+  padding: 10% 2% 15% 2%;
+}
+
+/* Navegation ar */
+nav {
+  color: rgb(10, 55, 97);
+  background-color: rgb(118, 187, 255, 0.75);
+  font-weight: bold;
+  font-family: 'Nerko One', cursive;
+  font-size: 30px;
+}
+
+a {
+  color: rgb(10, 55, 97);
+}
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+  /* transform: scale(1.2, 2); */
+}
+
+::selection {
+  color: rgb(10, 55, 97);
+  background: rgba(118, 187, 255, 0.75);
+}
+
+.navbar-logo {
+  max-width: 100%;
+  height: auto;
+  width: 100px;
+}
+
+#header {
+  text-align: center;
+  background: linear-gradient(rgba(118, 187, 255, 0.75), rgba(255, 255, 255, 0.45));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  margin: auto;
+  padding: 10% 2% 15% 2%;
+}
+
+#login ul {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  padding: 2%;
+  font-weight: bold;
+  font-family: 'Nerko One', cursive;
+  font-size: 20px;
+}
+
+/* .element {
+  display: inline-block;
+  background-color: #0074d9;
+  height: 100px;
+  width: 100px;
+  font-size: 1px;
+  padding: 1px;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+
+.element:hover {
+  -webkit-animation: roll 3s infinite;
+          animation: roll 3s infinite;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  opacity: .7;
+}
+
+@-webkit-keyframes roll {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes roll {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+} */
+
+.coming-soon {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, rgb(10, 55, 97));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+/* @-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+} */
+#mv-img h1 {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transition-timing-function: linear;
+}
+
+
+#contact {
+  text-align: center;
+}
