@@ -36,12 +36,19 @@ const User = new mongoose.model("User", userSchema);
 app.get("/", function(req, res) {
   res.render("home");
 })
+app.get("/ourStory", function(req, res) {
+  res.render("ourStory");
+})
 app.get("/login", function(req, res) {
   res.render("login");
 })
 app.get("/signup", function(req, res) {
   res.render("signup");
 })
+app.get("/contactUs", function(req, res) {
+  res.render("contactUs");
+})
+
 
 ////////////////// NEW USERS //////////////////
 app.post("/signup", function(req, res) {
