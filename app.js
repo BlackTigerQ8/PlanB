@@ -93,6 +93,5 @@ app.post("/login", function(req, res){
 
 
 ////////////// LOCALHOST //////////////
-app.listen(3000, function() {
-  console.log("Server started on port 3000.");
-});
+const port = process.env.port || 3000;
+app.listen(port, () => console.log('listening to port 3000'));
